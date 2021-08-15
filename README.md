@@ -1,9 +1,10 @@
 # HumanActionRecognition-Training
-## Requirement
-- Tensorflow 1.14
-- 
+
 Simple sensor based human action recognition end-to-end pipeline using Bi-LSTM model. We collect the dataset using our own smartwatch wear os sensor data collecter as you can check [here](https://github.com/farhantandia/Wearable-Sensor-Data-Collector) <br>.
 Our dataset consists of accelerometer and gyroscope from smartwatch data with the action of Walking, Standing, Jumping, and Falling, you can make and use your own dataset as well.
+
+## Dependencies
+- Tensorflow 1.14
 
 ## Method
 <img src="https://github.com/farhantandia/Sensor-HumanActionRecognition-Training/blob/master/sw-method.png"><br>
