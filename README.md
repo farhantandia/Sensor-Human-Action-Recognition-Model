@@ -7,7 +7,10 @@ Our dataset consists of accelerometer and gyroscope from smartwatch data with th
 - Tensorflow 1.14
 
 ## Method
+<p align="center">
 <img src="https://github.com/farhantandia/Sensor-HumanActionRecognition-Training/blob/master/sw-method.png"><br>
+</p>
+
 Human activity recognition for wearable sensor data is conduct by using bidirectional long-short term memory (Bi-LSTM) to capture the long-term dependencies of hand movement and automate feature extraction from raw sensor inputs and multilayer perceptron as the classifier of each activity classes. In order to train our Bi-LSTM model, we do not perform any hand-crafted feature pre-processing and directly split each collected data into a number of windows. Through the experiment of different window sizes, in our case, we find the optimal window size is about 120 Hz with a step size of 20Hz. The Bi-LSTM learns to map and predict each window sensor data to an activity as shown in figure above.
 
 ## Deployment
